@@ -1,7 +1,8 @@
 #include <iostream>
+#include <string>
 
 int main(){
-    std::string name="100 30";
-    int wpind[5]={NULL,NULL,NULL,NULL,NULL};
-    std::cout<<(wpind[0]);
+    char name='O';
+    if (name==toupper(name)){std::cout<<name;}
+
 }

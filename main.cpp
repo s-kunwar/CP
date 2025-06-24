@@ -1,30 +1,41 @@
 #include <bits/stdc++.h>
-#include <iostream>
+using namespace std;
 
-int main() {
+int main()
+{
     int test;
-    std::cout<<'.';
     std::cin>>test;
-
-    std::string hidden;
-    std::string guess;
-   
+    std::string str;
 
     while (test--){
-        
-        std::cin>>hidden;
-        std::cin>>guess;
+        std::getline(std::cin >> std::ws , str);
+        int pos=0;
 
-        for (int x=0; x<5; x++){
-            if (hidden.at(x)==guess.at(x)){
-                std::cout<<'G';
-            }
-            else{
-                std::cout<<'B';
+        for (int i=0; i<str.length(); i++){
+            if (str.at(i)==' ' || i==(str.length()-1) ){
+            
+                for (int x=pos; x<i; x++){
+                    if ( str.at(x)==toupper(str.at(x)) ){continue;}
+                    else{
+                        for (int y=pos; y<i; y++){str.at(y)=tolower(str.at(y));}
+                    }
+                }
+
+                if (str.at(pos)==toupper(str.at(pos)) && str.at(pos+1)==toupper(str.at(pos+1)) ) { pos=i+1; }
+                else {
+                    str.at(pos)=toupper(str.at(pos));
+                    pos=i+1;
+                }
+
+
+
             }
         }
-        std::cout<<'\n';
+        std::cout<<str<<'\n';
 
     }
-
+        
 }
+
+        
+
