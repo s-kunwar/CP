@@ -1,0 +1,6 @@
+to convert a character to a number
+'3'-'0' just substract 0
+ascii of '0' is 48 and of '3' is 51
+
+DONT BREAK OUT OF INPUT LOOP, if you do so, for larger 
+inputs it will create an input buffer and lead to 'Memory limit exceeded'
