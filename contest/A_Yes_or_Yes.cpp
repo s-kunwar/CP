@@ -11,13 +11,14 @@ int main(){
 
     while(t--){
 
-        int n,odds=0,temp=0;
-        cin>>n;
-        while(n--){
-            cin>>temp;
-            if(temp%2!=0) odds++;
+        string s;
+        cin>>s;
+        int cnt=0;
+
+        for(char c:s){
+            if(c=='Y') cnt++;
         }
-        if(odds%2==0) cout<<"YES\n";
+        if(cnt<=1) cout<<"YES\n";
         else cout<<"NO\n";
     }
 
