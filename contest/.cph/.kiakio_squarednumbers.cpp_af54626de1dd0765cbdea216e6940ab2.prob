@@ -1,0 +1,1 @@
+{"name":"Local: kiakio_squarednumbers","url":"c:\\Suraj\\code\\cp\\contest\\kiakio_squarednumbers.cpp","tests":[{"id":1790435961167,"input":"4\n5\n7 4 16 4 2\n4\n1 7 10 100\n3\n4 16 37\n3\n2 20 4\n","output":"1\n6\n0\n1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Suraj\\code\\cp\\contest\\kiakio_squarednumbers.cpp","group":"local","local":true}

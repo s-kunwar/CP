@@ -1,0 +1,1 @@
+{"name":"Local: b_three_piles","url":"c:\\Suraj\\code\\cp\\contest\\b_three_piles.cpp","tests":[{"id":1790002382218,"input":"5\n3 6 3\n3 6 10\n5 5 4\n2 5 6\n67676767 41414141 998244353\n","output":"3\n7\n4\n3\n1024506979\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Suraj\\code\\cp\\contest\\b_three_piles.cpp","group":"local","local":true}
